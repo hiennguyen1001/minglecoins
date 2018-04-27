@@ -6,6 +6,14 @@ data class Coin(
     @field:SerializedName("Symbol")
     val symbol: String? = null,
 
+
+
+
+
+
+
+
+
     @field:SerializedName("ImageUrl")
     val imageUrl: String? = null,
 
