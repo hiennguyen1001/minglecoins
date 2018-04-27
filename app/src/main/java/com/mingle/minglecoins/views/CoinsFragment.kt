@@ -7,12 +7,12 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.support.v7.widget.DividerItemDecoration
 import android.support.v7.widget.LinearLayoutManager
-import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
-import android.view.*
+import android.view.ViewGroup
 import com.bumptech.glide.Glide
 import com.mingle.minglecoins.R
+import android.os.*
 import com.mingle.minglecoins.databinding.FragmentCoinsBinding
 import com.mingle.minglecoins.models.Coin
 import com.mingle.minglecoins.viewmodels.CoinsViewModel
@@ -23,15 +23,6 @@ class CoinsFragment : Fragment() {
 //    private var mListener: OnListFragmentInteractionListener? = null
     private lateinit var binding: FragmentCoinsBinding
     private lateinit var adapter: CoinsRecyclerViewAdapter
-
-
-
-
-
-
-
-
-
 
 
 
